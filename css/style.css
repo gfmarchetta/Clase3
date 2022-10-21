@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin-bottom: 70px;
+  }
+
+header{
+    height: 70px;
+    background-color:black;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position:static;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    background-color: #3e4144;}
+
+aside{
+    width: 40%;
+    background-color:#3e4144;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    /* border: 2px solid whitesmoke ; */
+    border: dotted;
+    border-width: 10px 4px;
+    border-radius: 10px 40px;
+    border-color: antiquewhite;
+    width: 80%;
+    height: 80%;;
+    display: flex;
+}
+
+
+#content{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+
+}
+
+#about{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    background-color:darkgray;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#personaldata, #experiencia{
+    width: 80%;
+    height: 70px;
+    border: 1px solid blue;
+    display: flex;
+    background-color: antiquewhite;
+    padding: 20px;
+    
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    background-color:#212529;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom:0;   
+    color: antiquewhite;
+}
+
+.card-header{
+    text-align: center;
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+.card-text{
+    font-size: 1.5rem;
+    background-color: 212529;
+    color: antiquewhite;
+}
+
+.navbar-brand{
+    color: antiquewhite;
+    font-size: 2rem;
+}
+
+.form-control{
+    background-color: antiquewhite;
+}
+
+#myVideo{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
