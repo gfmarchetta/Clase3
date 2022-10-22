@@ -101,7 +101,7 @@ footer{
 
 .card-text{
     font-size: 1.5rem;
-    background-color: 212529;
+    background-color: #212529;
     color: antiquewhite;
 }
 
@@ -114,9 +114,35 @@ footer{
     background-color: antiquewhite;
 }
 
-#myVideo{
-    width: 180px;
+#contenedorVideos{
+    background-color: #212529;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#misVideos{
+    background-color: #3e4144;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 5px;
+    
+}
+
+.itemVideo{
+    background-color:darkgray;
+    width: 215px;
+    height: 165px;
+    border: 2px solid black;
+    display: flex;
+    margin: 5px;
+}
+
+iframe {
+    margin: auto;
 }
 
