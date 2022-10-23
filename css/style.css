@@ -29,8 +29,9 @@ nav{
 
 main{
     width: 100%;
-    height: 50%;
-    background-color: #3e4144;}
+    height: 50%;    
+    background-color:dimgray;
+}
 
 aside{
     width: 40%;
@@ -55,32 +56,25 @@ img{
 
 #content{
     width: 90%;
-    height: 80vh;
+    height: 350px;
     display: flex;
     justify-content: center;
     margin:auto;
+    padding: 20px 0 20px 0;
 
 }
 
 #about{
     border: 1px solid;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color:darkgray;
     width: 100%;
+    height:100%;
     justify-content:space-around;
     align-items: center;
 }
 
-#personaldata, #experiencia{
-    width: 80%;
-    height: 70px;
-    border: 1px solid blue;
-    display: flex;
-    background-color: antiquewhite;
-    padding: 20px;
-    
-}
 
 footer{
     height: 70px;
@@ -96,12 +90,12 @@ footer{
 
 .card-header{
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     color: antiquewhite;
 }
 
 .card-text{
-    font-size: 1.5rem;
+    font-size: 1rem;
     background-color: #212529;
     color: antiquewhite;
 }
@@ -117,7 +111,7 @@ footer{
 
 #contenedorVideos{
     height: 100%;
-    background-color: #212529;
+    background-color:dimgray;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -151,6 +145,10 @@ iframe {
 }
 
 #sumar_videos, #eliminar_videos{
-    margin:40px;
+    margin:25px;
+    border: 2px solid black;
 }
+
+
+
 
